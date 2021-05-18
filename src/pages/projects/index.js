@@ -1,16 +1,16 @@
 import React from "react"
 import Layout from "../../components/Layout"
 import "../../styles/global.css"
+import * as styles from "../../styles/projects.module.css"
 
 export default function index() {
   return (
     <Layout>
-      <div>
+      <div className={styles.portfolio}>
         <section>
           <div>
-            <h2>Design</h2>
-            <h3>Develop & Deploy</h3>
-            <p>Web developer based in Zaragoza, Spain</p>
+            <h2>Portfolio</h2>
+            <p>Projects & Websites I've Created</p>
           </div>
         </section>
       </div>
